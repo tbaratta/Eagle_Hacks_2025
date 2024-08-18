@@ -1,12 +1,17 @@
-# EagleHacks Hackathon Home and Registration Page
+# EagleHacks Hackathon Home and Registration Page (Prototype)
 
-This was an in class project for "Programming II" at Florida Gulf Coast University.
+The goal of this project is to build a home and registration page for EagleHacks.
 
-Me and two other partners built a fully functional blackjack simulator.
+EagleHacks is a hackathon hosted by the Software Engineering Club at Florida Gulf Coast University.
+
+This is a personal project and still in progress.
+
+
+
+## ♠️ Introduction <a name="introduction"></a>
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/tbaratta/BlackJack_SFML/blob/main/images/flow_diagram.png" alt="Alt Text" width="400" height="320">
-  <img src="https://github.com/tbaratta/BlackJack_SFML/blob/main/images/UI.png" alt="Alt Text" width="400" height="320">
+  <img src="https://github.com/tbaratta/EagleHacks_Prototype/images/Signup_Form.png" alt="Alt Text" width="400" height="320">
 </div>
 
 
@@ -17,9 +22,7 @@ Me and two other partners built a fully functional blackjack simulator.
 - ♣️ [Features](#features)
 - ♦️ [Quick Start](#quick-start)
 
-## ♠️ Introduction <a name="introduction"></a>
 
-This program allows users to play head to head verus a dealer in a game of blackjack.
 
 ## ♥️ Tech Stack <a name="tech-stack"></a>
 
