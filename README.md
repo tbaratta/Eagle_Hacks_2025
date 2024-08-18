@@ -11,7 +11,7 @@
 ## ♠️ Introduction <a name="introduction"></a>
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/tbaratta/EagleHacks_Prototype/images/Signup_Form.png" alt="Alt Text" width="400" height="320">
+  <img src="https://raw.githubusercontent.com/tbaratta/EagleHacks_Prototype/main/images/Signup_Form.png" alt="Signup Form" width="400" height="320">
 </div>
 
 
