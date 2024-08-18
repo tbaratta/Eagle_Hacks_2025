@@ -23,14 +23,14 @@
 
 ## Project Checklist <a name="check-list"></a>
 
-Frontend
+**Frontend**
 
 - Registration Page User Interface
 - Registration Page Functionality
 - Home Page User Interface
 - Home Page Functionality
 
-Backend
+**Backend**
 
 - Appwrite API
 - Appwrite Database
