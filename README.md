@@ -1,4 +1,4 @@
-# EagleHacks Hackathon Home and Registration Page (Prototype)
+# 🦅 EagleHacks Hackathon Home and Registration Page (Prototype) 🦅
 
 - Goal -> Build a home and registration page for hackathon participants.
 
@@ -29,7 +29,7 @@
 
 **Frontend**
 
-- Registration Page User Interface
+- Registration Page User Interface ✅
 - Registration Page Functionality
 - Home Page User Interface
 - Home Page Functionality
