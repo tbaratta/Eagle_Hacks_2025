@@ -1,10 +1,10 @@
 # EagleHacks Hackathon Home and Registration Page (Prototype)
 
-The goal of this project is to build a home and registration page for EagleHacks.
+- Goal -> Build a home and registration page for hackathon participants.
 
-EagleHacks is a hackathon hosted by the Software Engineering Club at Florida Gulf Coast University.
+- What is EagleHacks? -> EagleHacks is a hackathon hosted by the Software Engineering Club at Florida Gulf Coast University.
 
-This is a personal project and still in progress.
+- Notes -> This is a personal project and still in progress.
 
 
 
