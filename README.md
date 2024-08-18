@@ -6,7 +6,7 @@
 
 - Notes -> This is a personal project and still in progress.
 
-- Frontend -> React.js, Tailwind CSS, Shadcn
+- Frontend -> React.js, Tailwind CSS, Shadcn, Particles.js
 
 - Backend -> [Appwrite](https://appwrite.io/?utm_term=mobile%20app%20development%20software&utm_campaign=Website+traffic-Search-July&utm_source=adwords&utm_medium=ppc&hsa_acc=8189217294&hsa_cam=21428501931&hsa_grp=166941975249&hsa_ad=704615028685&hsa_src=g&hsa_tgt=kwd-296336029370&hsa_kw=mobile%20app%20development%20software&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwt4a2BhD6ARIsALgH7DohnRZspjxyjrmolX6EXFwiS05kv6Sw3aIgEmZif_BlbAQ42-OVahYaAtLaEALw_wcB)
 
@@ -23,6 +23,7 @@
 - Appwrite (backend)
 - TypeScript
 - Shadcn (UI)
+- Particles.js (UI)
 - Tailwind CSS
 
 ## Project Checklist <a name="check-list"></a>
