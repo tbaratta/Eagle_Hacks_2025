@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { Input } from "src/components/ui/input";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "src/components/ui/form";
 import { SignupValidation } from "src/lib/validation";
-import Loader from "src/components/ui/Loader";
+import Loader from "@/components/ui/Loader";
 import ParticlesComponent from "src/components/ui/particlebackground";
 
 
@@ -24,7 +24,7 @@ const form = useForm<z.infer<typeof SignupValidation>>({
   defaultValues: {
     name: "",
     email: "",
-    uin: "",
+    uin: null,
     major: "",
     expectedGradYear: undefined,
     academicYear: "",
