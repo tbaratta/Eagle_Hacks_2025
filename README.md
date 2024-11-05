@@ -20,11 +20,13 @@
 ## Tech Stack <a name="tech-stack"></a>
 
 - React.js
-- Appwrite (backend)
 - TypeScript
 - Shadcn (UI)
 - Particles.js (UI)
 - Tailwind CSS
+- Node.js
+- MongoDB
+- Express.js
 
 ## Project Checklist <a name="check-list"></a>
 
@@ -37,8 +39,8 @@
 
 **Backend**
 
-- Node API 
-- MongoDB
+- Node API ✅
+- MongoDB ✅
 
 
 
