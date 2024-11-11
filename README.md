@@ -10,7 +10,7 @@
 
 - Backend -> MongoDB
 
-- <u>**Deployment Date: February 2025**</u>
+- **Deployment Date: February 2025**
 
 
 ## Registration Page User Interface <a name="introduction"></a>
