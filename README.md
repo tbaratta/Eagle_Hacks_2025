@@ -8,7 +8,7 @@
 
 - Frontend -> React.js, Tailwind CSS, Shadcn, Particles.js
 
-- Backend -> MongoDB
+- **Backend -> MongoDB**
 
 - Deployment Date: February 2025
 
