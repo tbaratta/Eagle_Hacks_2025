@@ -10,6 +10,8 @@
 
 - Backend -> MongoDB
 
+- Deployment Date: February 2025
+
 
 ## Registration Page User Interface <a name="introduction"></a>
 
@@ -33,7 +35,7 @@
 **Frontend**
 
 - Registration Page User Interface ✅
-- Registration Page Functionality
+- Registration Page Functionality ✅
 - Home Page User Interface
 - Home Page Functionality
 
