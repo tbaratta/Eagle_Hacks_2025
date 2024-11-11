@@ -8,9 +8,9 @@
 
 - Frontend -> React.js, Tailwind CSS, Shadcn, Particles.js
 
-- **Backend -> MongoDB**
+- Backend -> MongoDB
 
-- Deployment Date: February 2025
+- **Deployment Date: February 2025**
 
 
 ## Registration Page User Interface <a name="introduction"></a>
