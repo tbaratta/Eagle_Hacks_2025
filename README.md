@@ -13,7 +13,7 @@
 - **Deployment Date: February 2025**
 
 
-## Registration Page User Interface <a name="introduction"></a>
+## Registration Page User Interface & Home Page User Interface <a name="introduction"></a>
 
 <div style="display: flex; justify-content: space-around;">
   <img src="https://raw.githubusercontent.com/tbaratta/EagleHacks_Prototype/main/images/Signup_Form.png" alt="Signup Form" width="500" height="320">
