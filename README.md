@@ -18,6 +18,9 @@
 <div style="display: flex; justify-content: space-around;">
   <img src="https://raw.githubusercontent.com/tbaratta/EagleHacks_Prototype/main/images/Signup_Form.png" alt="Signup Form" width="600" height="320">
 </div>
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://raw.githubusercontent.com/tbaratta/EagleHacks_Prototype/main/images/EagleHacks_HomePage.png" alt="Signup Form" width="600" height="320">
+</div>
 
 ## Tech Stack <a name="tech-stack"></a>
 
