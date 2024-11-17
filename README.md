@@ -17,7 +17,7 @@
 
 <div style="display: flex; justify-content: space-around;">
   <img src="https://raw.githubusercontent.com/tbaratta/EagleHacks_Prototype/main/images/Signup_Form.png" alt="Signup Form" width="auto" height="320">
-  <img src="https://raw.githubusercontent.com/tbaratta/EagleHacks_Prototype/main/images/EagleHacks_HomePage.png" alt="Home Page" width="350" height="320">
+  <img src="https://raw.githubusercontent.com/tbaratta/EagleHacks_Prototype/main/images/EagleHacks_HomePage.png" alt="Home Page" width="auto" height="320">
 </div>
 
 
