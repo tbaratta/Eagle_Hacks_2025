@@ -1,3 +1,6 @@
+
+**Click [here](https://www.youtube.com/watch?v=gMD5NfMpT2s) to view a video of this project in action**
+
 # 🦅 EagleHacks Hackathon Home and Registration Page (Prototype) 🦅
 
 - Goal -> Build a home and registration page for hackathon participants.
