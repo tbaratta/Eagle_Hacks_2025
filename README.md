@@ -41,8 +41,8 @@
 
 - Registration Page User Interface ✅
 - Registration Page Functionality ✅
-- Home Page User Interface
-- Home Page Functionality
+- Home Page User Interface ✅
+- Home Page Functionality ✅
 
 **Backend**
 
