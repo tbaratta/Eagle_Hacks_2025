@@ -4,6 +4,7 @@ import { Home } from './_root/pages';
 import SignUpForm from './_auth/forms/SignUpForm';
 import AuthLayout from './_auth/AuthLayout';
 import RootLayout from './_root/RootLayout';
+import SuccessPage from './_auth/forms/Success';
 const app = () => {
   return (
    <main className="flex h-screen">
@@ -12,6 +13,7 @@ const app = () => {
        <Route element={<AuthLayout />}>
 
        <Route path="/sign-up" element={<SignUpForm />} />
+       <Route path="/SuccessPage" element={<SuccessPage />} />
 
        </Route>
 

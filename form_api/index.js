@@ -24,7 +24,8 @@ const userSchema = new mongoose.Schema({
   uin: { type: String, required: true },
   major: { type: String, required: true },
   expectedGradYear: { type: Number, required: true },
-  academicYear: { type: String, required: true },
+  tShirtSize: { type: String, required: true },
+  dietaryRestriction: { type: String, required: true }
 });
 
 const User = mongoose.model('User', userSchema);
@@ -32,7 +33,7 @@ const User = mongoose.model('User', userSchema);
 // Routes
 app.post('/', async (req, res) => {
   try {
-    const { name, email, uin, major, expectedGradYear, academicYear } = req.body;
+    const { name, email, uin, major, expectedGradYear, tShirtSize, dietaryRestriction } = req.body;
     
     const newUser = new User({
       name,
@@ -40,7 +41,8 @@ app.post('/', async (req, res) => {
       uin,
       major,
       expectedGradYear,
-      academicYear,
+      tShirtSize,
+      dietaryRestriction,
     });
     await newUser.save();
     
@@ -56,3 +58,4 @@ const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+

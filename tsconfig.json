@@ -4,6 +4,6 @@
       "outDir": "./dist",  // You can adjust the output directory as needed
       "noEmit": false      // Ensures files are emitted during build
     },
-    "include": ["src"]
+    "include": ["src", "form_api"]
   }
   

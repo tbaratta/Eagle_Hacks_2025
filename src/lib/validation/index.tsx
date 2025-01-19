@@ -6,5 +6,6 @@ export const SignupValidation = z.object({
   uin: z.union([z.number().min(5, { message: 'Enter a valid UIN number' }) .optional(), z.null().optional()]),
   major: z.string().min(5, { message: 'Enter a valid major'}),
   expectedGradYear: z.union([z.number().min(5, { message: 'Enter a valid expected graduation year' }), z.null()]),
-  academicYear: z.string().min(5, { message: 'Enter a valid academic year'}),
+  tShirtSize: z.string().min(1, { message: 'Enter a valid T-shirt size'}),
+  dietaryRestriction: z.string().min(1,{ message: 'Enter a valid dietary restriction'}),
 });
