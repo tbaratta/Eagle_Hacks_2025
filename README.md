@@ -1,3 +1,6 @@
+
+**Click [here](https://www.youtube.com/watch?v=gMD5NfMpT2s) to view a video of this project in action**
+
 # 🦅 EagleHacks Hackathon Home and Registration Page (Prototype) 🦅
 
 - Goal -> Build a home and registration page for hackathon participants.
@@ -10,35 +13,41 @@
 
 - Backend -> MongoDB
 
+- **Deployment Date: February 2025**
 
-## Registration Page User Interface <a name="introduction"></a>
+
+## Registration Page User Interface & Home Page User Interface <a name="introduction"></a>
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://raw.githubusercontent.com/tbaratta/EagleHacks_Prototype/main/images/Signup_Form.png" alt="Signup Form" width="600" height="320">
+  <img src="https://raw.githubusercontent.com/tbaratta/EagleHacks_Prototype/main/images/Signup_Form.png" alt="Signup Form" width="auto" height="320">
+  <img src="https://raw.githubusercontent.com/tbaratta/EagleHacks_Prototype/main/images/EagleHacks_HomePage.png" alt="Home Page" width="auto" height="320">
 </div>
+
 
 ## Tech Stack <a name="tech-stack"></a>
 
 - React.js
-- Appwrite (backend)
 - TypeScript
 - Shadcn (UI)
 - Particles.js (UI)
 - Tailwind CSS
+- Node.js
+- MongoDB
+- Express.js
 
 ## Project Checklist <a name="check-list"></a>
 
 **Frontend**
 
 - Registration Page User Interface ✅
-- Registration Page Functionality
-- Home Page User Interface
-- Home Page Functionality
+- Registration Page Functionality ✅
+- Home Page User Interface ✅
+- Home Page Functionality ✅
 
 **Backend**
 
-- Node API 
-- MongoDB
+- Node API ✅
+- MongoDB ✅
 
 
 
