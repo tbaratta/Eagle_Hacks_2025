@@ -52,9 +52,9 @@ app.post('/', async (req, res) => {
   }
 });
 
-console.log("MongoDB URI from .env:", process.env.MONGODB_URI);
+//console.log("MongoDB URI from .env:", process.env.MONGODB_URI);
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
