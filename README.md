@@ -1,5 +1,5 @@
 
-**Click [here](https://www.youtube.com/watch?v=gMD5NfMpT2s) to view a video of this project in action**
+# [https://eagle-hacks.onrender.com/](https://eagle-hacks.onrender.com/) 
 
 # 🦅 EagleHacks Hackathon Home and Registration Page (Prototype) 🦅
 
@@ -13,15 +13,7 @@
 
 - Backend -> MongoDB
 
-- **Deployment Date: February 2025**
-
-
-## Registration Page User Interface & Home Page User Interface <a name="introduction"></a>
-
-<div style="display: flex; justify-content: space-around;">
-  <img src="https://raw.githubusercontent.com/tbaratta/EagleHacks_Prototype/main/images/Signup_Form.png" alt="Signup Form" width="auto" height="320">
-  <img src="https://raw.githubusercontent.com/tbaratta/EagleHacks_Prototype/main/images/EagleHacks_HomePage.png" alt="Home Page" width="auto" height="320">
-</div>
+- **Deployment Date: January 20th, 2025**
 
 
 ## Tech Stack <a name="tech-stack"></a>
