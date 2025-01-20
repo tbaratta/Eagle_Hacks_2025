@@ -38,7 +38,7 @@ const SignUpForm = () => {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
-      const response = await fetch('http://localhost:3000', {
+      const response = await fetch('https://eagle-hacks-2025-backend.onrender.com/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
