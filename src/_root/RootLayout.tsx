@@ -21,7 +21,7 @@ const RootLayout = () => {
       {/* Centered container for the logo and text */}
       <div className="flex flex-col items-center text-center sm:w-[420px] z-10 pt-20 sm:pt-32">
         <img
-          src="/dist/assets/EagleHacksLogo2025.png"
+          src="/images/EagleHacksLogo2025.png"
           alt="EagleHacks 2025 logo"
           className="w-3/4 sm:w-full object-contain h-auto sm:-mt-24 lg:-mt-24 md:-mt-24"
         />
