@@ -7,6 +7,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import Loader from "@/components/ui/Loader";
 import ParticlesComponent from "src/components/ui/particlebackground";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const formSchema = z.object({
   name: z.string().min(2).max(50),
@@ -19,9 +20,8 @@ const formSchema = z.object({
 });
 
 const SignUpForm = () => {
-  const isLoading = false;
+  const [isLoading, setIsLoading] = useState(false);  // Initialize loading state
   const navigate = useNavigate();
-
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -37,6 +37,7 @@ const SignUpForm = () => {
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsLoading(true);  // Set loading to true when submission starts
     try {
       const response = await fetch("https://eagle-hacks-2025-backend.onrender.com/", {
         method: 'POST',
@@ -49,14 +50,14 @@ const SignUpForm = () => {
       const data = await response.json();
       console.log(data); 
       if (response.ok) {
-        //alert('Registration successful!');
         navigate("/SuccessPage");
-      } 
-      else {
+      } else {
         alert('Registration failed!');
       }
     } catch (error) {
       console.error('Error:', error);
+    } finally {
+      setIsLoading(false);  // Set loading to false when submission ends
     }
   }
 
@@ -171,7 +172,7 @@ const SignUpForm = () => {
                 name="dietaryRestriction"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Do you have any dietary resrictions? (Please Specify)</FormLabel>
+                    <FormLabel>Do you have any dietary restrictions? (Please Specify)</FormLabel>
                     <FormControl>
                       <Input type="text" className="shad-input" {...field} />
                     </FormControl>
