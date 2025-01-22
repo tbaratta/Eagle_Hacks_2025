@@ -39,7 +39,7 @@ const RootLayout = () => {
         
         <div className="flex space-x-4 mt-4">
 
-          <Link to="https://discord.gg/zhbtPxSPwB" target="_blank" rel="noopener noreferrer">
+          <Link to="https://discord.gg/gqY7xYJAx2" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faDiscord} size="2x" style={{ color: '#0345a8' }} />
           </Link>
           <Link to="https://www.instagram.com/fgcu_cssec/" target="_blank" rel="noopener noreferrer">

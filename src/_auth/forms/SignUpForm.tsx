@@ -20,7 +20,7 @@ const formSchema = z.object({
 });
 
 const SignUpForm = () => {
-  const [isLoading, setIsLoading] = useState(false);  // Initialize loading state
+  const [isLoading, setIsLoading] = useState(false);  
   const navigate = useNavigate();
 
   const form = useForm<z.infer<typeof formSchema>>({
@@ -37,7 +37,7 @@ const SignUpForm = () => {
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    setIsLoading(true);  // Set loading to true when submission starts
+    setIsLoading(true);  
     try {
       const response = await fetch("https://eagle-hacks-2025-backend.onrender.com/", {
         method: 'POST',
@@ -57,7 +57,7 @@ const SignUpForm = () => {
     } catch (error) {
       console.error('Error:', error);
     } finally {
-      setIsLoading(false);  // Set loading to false when submission ends
+      setIsLoading(false); 
     }
   }
 

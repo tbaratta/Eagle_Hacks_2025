@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
+const ratelimit = require('express-rate-limit');
 require('dotenv').config();
 
 // Middleware
@@ -18,6 +19,18 @@ mongoose.connect(process.env.MONGODB_URI, {
   console.error("Database connection error", err);
 });
 
+const signupRateLimiter = ratelimit({
+  windowMs: 5 * 60 * 1000,
+  max: 3,
+  message: {
+    status: 429,
+    error: "Too many requests",
+    message: "Too many requests from this IP"
+  },
+  standardHeaders: true,
+  legacyHeaders: false
+});
+
 const userSchema = new mongoose.Schema({
   name: { type: String, required: true },
   email: { type: String, required: true },
@@ -31,7 +44,7 @@ const userSchema = new mongoose.Schema({
 const User = mongoose.model('User', userSchema);
 
 // Routes
-app.post('/', async (req, res) => {
+app.post('/', signupRateLimiter, async (req, res) => {
   try {
     const { name, email, uin, major, expectedGradYear, tShirtSize, dietaryRestriction } = req.body;
     
@@ -52,7 +65,7 @@ app.post('/', async (req, res) => {
   }
 });
 
-//console.log("MongoDB URI from .env:", process.env.MONGODB_URI);
+// console.log("MongoDB URI from .env:", process.env.MONGODB_URI);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
