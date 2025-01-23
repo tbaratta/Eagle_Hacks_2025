@@ -38,7 +38,9 @@ const userSchema = new mongoose.Schema({
   major: { type: String, required: true },
   expectedGradYear: { type: Number, required: true },
   tShirtSize: { type: String, required: true },
-  dietaryRestriction: { type: String, required: true }
+  dietaryRestriction: { type: String, required: true },
+  firstHackathon: { type: String, required: true},
+  programmingExperience: { type: String, required: true},
 });
 
 const User = mongoose.model('User', userSchema);
@@ -46,7 +48,7 @@ const User = mongoose.model('User', userSchema);
 // Routes
 app.post('/', signupRateLimiter, async (req, res) => {
   try {
-    const { name, email, uin, major, expectedGradYear, tShirtSize, dietaryRestriction } = req.body;
+    const { name, email, uin, major, expectedGradYear, tShirtSize, dietaryRestriction, firstHackathon, programmingExperience } = req.body;
     
     const newUser = new User({
       name,
@@ -56,6 +58,8 @@ app.post('/', signupRateLimiter, async (req, res) => {
       expectedGradYear,
       tShirtSize,
       dietaryRestriction,
+      firstHackathon,
+      programmingExperience
     });
     await newUser.save();
     

@@ -17,6 +17,8 @@ const formSchema = z.object({
   expectedGradYear: z.preprocess((val) => Number(val), z.number().min(1900).max(2100)),  // Convert to number
   tShirtSize: z.string(),
   dietaryRestriction: z.string(),
+  firstHackathon: z.string(),
+  programmingExperience: z.string(),
 });
 
 const SignUpForm = () => {
@@ -33,6 +35,8 @@ const SignUpForm = () => {
       expectedGradYear: undefined,
       tShirtSize: "",
       dietaryRestriction: "",
+      firstHackathon: "",
+      programmingExperience: ""
     },
   });
 
@@ -173,6 +177,34 @@ const SignUpForm = () => {
                 render={({ field }) => (
                   <FormItem>
                     <FormLabel>Do you have any dietary restrictions? (Please Specify)</FormLabel>
+                    <FormControl>
+                      <Input type="text" className="shad-input" {...field} />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <FormField
+                control={form.control}
+                name="firstHackathon"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Is this your first hackathon?</FormLabel>
+                    <FormControl>
+                      <Input type="text" className="shad-input" {...field} />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <FormField
+                control={form.control}
+                name="programmingExperience"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>What programming languages / frameworks are you familiar with?</FormLabel>
                     <FormControl>
                       <Input type="text" className="shad-input" {...field} />
                     </FormControl>
