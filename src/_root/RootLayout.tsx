@@ -19,13 +19,13 @@ const RootLayout = () => {
       </div>
 
       {/* Centered container for the logo and text */}
-      <div className="flex flex-col items-center text-center sm:w-[420px] z-10 pt-20 sm:pt-32">
+      <div className="flex flex-col items-center text-center sm:w-[420px] z-10 pt-20 sm:pt-32 -mt-8">
         <img
-          src="/images/EagleHacksLogo2025.png"
+          src="/images/EagleHacks25_Logo_V2.png"
           alt="EagleHacks 2025 logo"
           className="w-3/4 sm:w-full object-contain h-auto sm:-mt-24 lg:-mt-24 md:-mt-24"
         />
-        <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">Welcome to Eagle Hacks 2025!</h2>
+        <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12 -mt-28">Welcome to Eagle Hacks 2025!</h2>
         <p className="text-light-1 small-medium md:base-regular mt-2 sm:whitespace-normal md:whitespace-nowrap max-w-full text-center md:ml-[-90px]">
   Hosted by CSSEC (Computer Science and Software Engineering Club)
 </p>

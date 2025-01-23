@@ -75,13 +75,13 @@ const SignUpForm = () => {
       {/* Form Content */}
       <div className="relative z-10 p-10 rounded shadow-lg max-h-[80vh] overflow-y-auto scrollable-container">
         <Form {...form}>
-          <div className="sm:w-420 flex-center flex-col">
+          <div className="sm:w-420 flex-center flex-col -mt-16">
             <img
-              src="/images/EagleHacksLogo2025.png"
+              src="/images/EagleHacks25_Logo_V2.png"
               alt="logo"
               style={{ width: 'auto', height: 'auto'}}
             />
-            <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">Register for EagleHacks 2025!</h2>
+            <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12 -mt-16">Register for EagleHacks 2025!</h2>
             <p className="text-light-3 small-medium md:base-regular mt-2">
               Fill out the form and click the submit button below
             </p>
