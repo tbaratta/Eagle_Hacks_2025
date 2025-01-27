@@ -23,12 +23,12 @@ const RootLayout = () => {
         <img
           src="/images/EagleHacks25_Logo_V2.png"
           alt="EagleHacks 2025 logo"
-          className="w-3/4 sm:w-full object-contain h-auto sm:-mt-24 lg:-mt-24 md:-mt-24"
+         className="w-3/4 sm:w-full object-contain h-auto sm:-mt-20 lg:-mt-24 md:-mt-24"
         />
-        <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12 -mt-28">Welcome to Eagle Hacks 2025!</h2>
+        <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12 -mt-24">Welcome to Eagle Hacks 2025!</h2>
         <p className="text-light-1 small-medium md:base-regular mt-2 sm:whitespace-normal md:whitespace-nowrap max-w-full text-center md:ml-[-90px]">
-  Hosted by CSSEC (Computer Science and Software Engineering Club)
-</p>
+            Hosted by CSSEC (Computer Science and Software Engineering Club)
+        </p>
 
         <p className="text-light-1 small-medium md:base-regular mt-2 whitespace-nowrap">
           Holmes Hall - Florida Gulf Coast University
@@ -281,6 +281,8 @@ const RootLayout = () => {
       </div>
     </div>
   </div>
+
+
 
   {/* Team Section */}
 <div className="flex flex-col items-center justify-center w-full px-6 py-20 z-10">
